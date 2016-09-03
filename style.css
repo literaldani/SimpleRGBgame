@@ -26,10 +26,11 @@ button{
 	color: #006CC1;
 	letter-spacing: 1px;
 	font-size: inherit;
-
+	transition: all 0.4s ease;
 
 }
 button:hover{
+
 	color: white;
 	background: #006CC1;
 }
@@ -70,4 +71,6 @@ button:focus{
 	padding-bottom: 30%;
 	background-color: pink;
 	float: left;
+	border-radius: 10px;
+	transition: all 0.4s ease;
 }
