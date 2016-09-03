@@ -49,11 +49,13 @@ button:focus{
 
 #container {
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 #message{
 	color: black;
+	display: inline-block;
+	width:20%;
 }
 #colorDisplay{
 	font-size: 200%;

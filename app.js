@@ -52,10 +52,10 @@ function init () {
 		if ( clickedColor === pickedColor) {
 			changeColors(clickedColor);
 			messageDisplay.textContent = "Winning";
-			reset.textContent = "Play Again"
+			resetButton.textContent = "Play Again";
 		} else {
 			this.style.background = "#232323";
-			messageDisplay.textContent = "try again";
+			messageDisplay.textContent = "Try again";
 			}
 		})
 	}
@@ -114,7 +114,7 @@ function reset() {
 	pickedColor = pickColor();
 	h1.style.background = "#006CC1";
 	messageDisplay.textContent = "";
-	reset.textContent = "New colors";
+	resetButton.textContent = "New colors";
 	init();
 }
 resetButton.addEventListener("click", reset)
